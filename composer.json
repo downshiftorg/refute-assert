@@ -1,0 +1,22 @@
+{
+    "name": "netrivet/refute-assert",
+    "description": "Use refuteX terminology instead of assertNotX for PHPUnit assertions, plus some extra assert/refute pairs.",
+    "license": "MIT",
+    "keywords": [
+        "phpunit"
+    ],
+    "authors": [
+        {
+            "name": "Jared Henderson",
+            "email": "jared@netrivet.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NetRivet\\RefuteAssert\\": "src/"
+        }
+    }
+}
