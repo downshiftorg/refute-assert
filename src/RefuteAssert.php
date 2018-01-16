@@ -1,7 +1,7 @@
 <?php
 
 
-namespace NetRivet\RefuteAssert;
+namespace DownShift\RefuteAssert;
 
 
 trait RefuteAssert {

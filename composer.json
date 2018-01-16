@@ -1,5 +1,5 @@
 {
-    "name": "netrivet/refute-assert",
+    "name": "downshiftorg/refute-assert",
     "description": "Use refuteX terminology instead of assertNotX for PHPUnit assertions, plus some extra assert/refute pairs.",
     "license": "MIT",
     "keywords": [
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "NetRivet\\RefuteAssert\\": "src/"
+            "DownShift\\RefuteAssert\\": "src/"
         }
     }
 }

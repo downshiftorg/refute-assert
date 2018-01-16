@@ -2,7 +2,7 @@
 
 
 class RefuteAssertTestCase extends \PHPUnit_Framework_TestCase {
-	use \NetRivet\RefuteAssert\RefuteAssert;
+	use \DownShift\RefuteAssert\RefuteAssert;
 }
 
 

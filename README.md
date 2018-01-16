@@ -15,7 +15,7 @@ Remembering where to put the `Not` is tough.
 
 ##Solution: Refute
 
-<a href="https://github.com/NetRivet/RefuteAssert">RefuteAssert</a> aliases all of the `assert*Not*` assertion inversions to `refuteX`.  So, now we can type:
+<a href="https://github.com/downshift/refute-assert">RefuteAssert</a> aliases all of the `assert*Not*` assertion inversions to `refuteX`.  So, now we can type:
 
 
 ```php
@@ -35,7 +35,7 @@ Pull the package in through Composer.
 ```js
 {
     "require": {
-        "netrivet/refute-assert": "0.1.*"
+        "downshiftorg/refute-assert": "0.1.*"
     }
 }
 ```
@@ -49,7 +49,7 @@ namespace Acme\Foo;
 
 class MyTestCase extends \PHPUnit_Framework_Testcase {
 
-	use \NetRivet\RefuteAssert\RefuteAssert;
+	use \DownShift\RefuteAssert\RefuteAssert;
 
 }
 ```
